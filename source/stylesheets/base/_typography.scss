@@ -1,0 +1,86 @@
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  
+  letter-spacing: -0.03em;
+  font-weight:700;
+}
+h1 {
+  margin: 0 0 $small-spacing;
+}
+h2, h3, h4, h5, h6 {
+  margin: 0 0 $tiny-spacing;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;  padding:1px 2px;
+  border-radius:2px;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($action-color, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+.archivo-black {
+  font-family:'archivo black';
+  font-weight:100;
+  letter-spacing: -0.08em;
+  font-size:95%
+}
+
+strong{
+  @extend .archivo-black;
+}
+
+.highlight{
+  color:$hot-purp;
+}
+.highlight2{
+  color:$rich-violet;
+}
+.highlight3{
+  font-size:120%;
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
