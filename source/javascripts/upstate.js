@@ -49,7 +49,7 @@
               setTimeout(function() {
                 $slideFloater.animate({top: '-500px'}, 2000);
                 $slideFloater.animate({top: '25px'}, 2000);
-                $slideFloater.animate({top: '-25px'}, 700);
+                $slideFloater.animate({top: '-75px'}, 700);
               }, 4500);
 
               navMenu();
