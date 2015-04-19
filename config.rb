@@ -85,8 +85,8 @@ page "/feed.xml", layout: false
 
 # Reload the browser automatically whenever files change
 activate :google_analytics do |ga|
-  ga.tracking_id = '' # Replace with your property ID.
-  ga.domain_name = ''
+  ga.tracking_id = 'UA-62001075-1' # Replace with your property ID.
+  ga.domain_name = 'upstatebiz.com'
   ga.minify = true
 end
 
