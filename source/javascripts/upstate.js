@@ -83,7 +83,7 @@
                   $contactForm.submit(function(e) {
                     e.preventDefault();
                     $.ajax({
-                      url: '//formspree.io/hi@hightopsnyc.com',
+                      url: '//formspree.io/hi@upstatebiz.com',
                       method: 'POST',
                       data: $(this).serialize(),
                       dataType: 'json',
