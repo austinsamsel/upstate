@@ -52,6 +52,16 @@ header.navigation li.more a, header.upstate-nav-wrapper li.more a {
 
 /* home slide */
 
+#slide-floater{
+  margin-top:-50px;
+  @include media($medium-screen){
+    margin-top: -75px;
+  }
+  @include ($large-screen){
+    margin-top:-100px;
+  }
+}
+
 .upstate-hero{
   font-family: 'enriqueta', serif;
   font-size:2.5em;

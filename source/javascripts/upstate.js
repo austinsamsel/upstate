@@ -23,7 +23,7 @@
           });
         };
 
-        $slideFloater = $('#slide-floater');
+        // $slideFloater = $('#slide-floater');
 
         $navBar = $('.upstate-nav-sm');
         var slideDown = function() {
@@ -51,15 +51,15 @@
 
               //visible animated slideInUp
 
-              // setTimeout(function(){
-              //    $('.upstate-hero').addClass('expandUp');
-              // }, 600);
+              setTimeout(function(){
+                 $('.upstate-hero').addClass('expandUp');
+              }, 600);
 
-              setTimeout(function() {
-                $slideFloater.animate({top: '-500px'}, 2000);
-                $slideFloater.animate({top: '25px'}, 2000);
-                $slideFloater.animate({top: '-75px'}, 700);
-              }, 4500);
+              // setTimeout(function() {
+              //   $slideFloater.animate({top: '-500px'}, 2000);
+              //   $slideFloater.animate({top: '25px'}, 2000);
+              //   $slideFloater.animate({top: '-75px'}, 700);
+              // }, 4500);
 
               navMenu();
 
