@@ -52,8 +52,8 @@
               //visible animated slideInUp
 
               setTimeout(function(){
-                 $('.upstate-hero').addClass('expandUp');
-              }, 600);
+                 $('.upstate-hero').addClass('visible animated slideInUp');
+              }, 1500);
 
               // setTimeout(function() {
               //   $slideFloater.animate({top: '-500px'}, 2000);

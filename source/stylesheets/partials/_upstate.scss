@@ -69,7 +69,7 @@ header.navigation li.more a, header.upstate-nav-wrapper li.more a {
   color: $sky-top;
   margin-bottom:1%;
   text-align:center;
-  //visibility: hidden;
+  visibility: hidden;
     @include media($medium-screen) {
       font-size:4em;
       line-height:1em;
