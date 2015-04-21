@@ -142,6 +142,8 @@ GEM
     puma (2.11.0)
       rack (>= 1.1, < 2.0)
     rack (1.6.0)
+    rack-cache (1.2)
+      rack (>= 0.4)
     rack-contrib (1.2.0)
       rack (>= 0.9.1)
     rack-livereload (0.3.15)
@@ -181,17 +183,18 @@ DEPENDENCIES
   bitters (~> 1.0.0)
   bourbon (~> 4.2.1)
   builder (~> 3.0)
-  font-awesome-middleman
-  jquery-middleman
+  font-awesome-middleman (~> 4.2.3)
+  jquery-middleman (~> 3.0.4)
   middleman (~> 3.3.10)
   middleman-blog (~> 3.5.3)
-  middleman-google-analytics
+  middleman-google-analytics (~> 1.1.0)
   middleman-imageoptim
   middleman-livereload
-  middleman-meta-tags
+  middleman-meta-tags (~> 0.1.2)
   middleman-minify-html
   middleman-protect-emails
   neat (~> 1.7.2)
-  nokogiri
+  nokogiri (~> 1.6.6)
   puma
+  rack-cache
   rack-contrib
