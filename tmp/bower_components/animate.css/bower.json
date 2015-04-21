@@ -1,7 +1,7 @@
 {
-  "name": "animate-eb9a51bc.css",
+  "name": "animate.css",
   "version": "3.2.6",
-  "main": "animate-eb9a51bc.css",
+  "main": "./animate.css",
   "ignore": [
     ".*",
     "src",
