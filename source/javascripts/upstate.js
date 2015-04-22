@@ -83,7 +83,7 @@
                   $contactForm.submit(function(e) {
                     e.preventDefault();
                     $.ajax({
-                      url: '//formspree.io/hi@upstatebiz.com',
+                      url: '//formspree.io/hi@austinsamsel.com',
                       method: 'POST',
                       data: $(this).serialize(),
                       dataType: 'json',
@@ -107,7 +107,7 @@
                   $upstateApply.submit(function(e) {
                     e.preventDefault();
                     $.ajax({
-                      url: '//formspree.io/hi@upstatebiz.com',
+                      url: '//formspree.io/hi@austinsamsel.com',
                       method: 'POST',
                       data: $(this).serialize(),
                       dataType: 'json',
