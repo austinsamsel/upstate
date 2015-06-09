@@ -34,7 +34,7 @@
         };
 
         $('#fullpage').fullpage({
-          anchors: ['Home', 'Success', 'Overview', 'Features', 'Themes', 'Pricing', 'About', 'Apply', 'Contact'],
+          anchors: ['Home', 'Results', 'Overview', 'Features', 'Themes', 'Pricing', 'About', 'Apply', 'Contact'],
           responsive: 5000,
           controlArrows: true,
           slidesNavigation: true,
