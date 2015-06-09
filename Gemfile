@@ -1,4 +1,4 @@
-ruby '2.2.0'
+ruby '2.2.2'
 
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
