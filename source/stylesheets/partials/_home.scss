@@ -17,7 +17,7 @@ img {
 
 .white-moon{
   background: #fff;
-  border-top:1px solid darken(#fff, 10%);
+  border-top:1px solid darken(#fff, 20%);
 }
 .dawn-mist{
   background: $bg-dawn-mist;
@@ -43,6 +43,18 @@ img {
   background: $bg-slight-white;
   border-top:1px solid darken($bg-slight-white, 5%);
 }
+
+.slight-shade{
+  @include linear-gradient(130deg, lighten($earth, 69%), lighten($bg-light-green, 45%) 40%, lighten($blue, 45%));
+  border-top:1px solid lighten($earth, 50%);
+}
+
+.daylight-gradient{
+  @include linear-gradient(330deg, lighten($bg-midnight, 65%), lighten($blue, 50%) 40%, lighten($purple, 27%));
+  border-top:1px solid lighten($bg-sirius-night, 65%);
+}
+
+
 .night > *{
   color: $off-white;
 }
@@ -54,7 +66,7 @@ img {
   border-top:1px solid #ddd;
 }
 .gradient2 {
-  @include linear-gradient(-330deg, lighten($earth, 69%), lighten($crystal-blue, 65%) 40%, lighten($crystal-blue, 45%));
+  @include linear-gradient(130deg, lighten($earth, 65%), lighten($crystal-blue, 58%) 40%, lighten($purple, 25%));
   border-top:1px solid #ddd;
 }
 .gradient3 {
@@ -372,6 +384,21 @@ h5 {
 .sidebar-night{
   @include span-columns(12);
   background:rgba(0,0,0,0.2);
+  padding:40px;
+  border-radius:5px;
+  @include media($medium-screen){
+    @include span-columns(5)
+  }
+  @include media($large-screen){
+    @include span-columns(4);
+
+    @include omega();
+    //@include shift(1);
+  }
+}
+.sidebar-off{
+  @include span-columns(12);
+  background:rgba(0,0,0,0.05);
   padding:40px;
   border-radius:5px;
   @include media($medium-screen){

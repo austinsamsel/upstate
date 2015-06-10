@@ -571,3 +571,16 @@ header.navigation .navigation-wrapper, header.upstate-nav-wrapper .navigation-wr
 header.navigation, header.upstate-nav-wrapper {
   overflow: hidden;
 }
+
+/* apply */
+
+.center-apply {
+  text-align: center;
+}
+.center-apply p {
+  margin: 0 auto;
+}
+.center-apply .upstate-apply-form input {
+  margin: 0.7em auto;
+  text-align:center;
+}

@@ -19,10 +19,11 @@ per_page: 10
       <div class="navigation-tools">
         <ul id="js-navigation-menu" class="navigation-menu show">
           <li data-menuanchor="Results" class="nav-link"><a href="#Results">Results</a></li>
-          <li data-menuanchor="Overview" class="nav-link"><a href="#Overview">Overview</a></li>
+<!--           <li data-menuanchor="Overview" class="nav-link"><a href="#Overview">Overview</a></li> -->
           <li data-menuanchor="Features" class="nav-link"><a href="#Features">Features</a></li>
           <li data-menuanchor="Themes" class="nav-link"><a href="#Themes">Themes</a></li>
           <li data-menuanchor="Pricing" class="nav-link"><a href="#Pricing">Pricing</a></li>
+          <li data-menuanchor="About" class="nav-link"><a href="#About">About</a></li>
           <li data-menuanchor="Contact" class="nav-link"><a href="#Contact">Contact</a></li>
           <li data-menuanchor="Apply" class="nav-link nav-bubble"><a href="#Apply"><span class="special-link">Apply</span></a></li>
         </ul>
@@ -116,13 +117,13 @@ per_page: 10
       </section>
     <!-- </div> -->
   </div>
-  <div class="section white-moon" data-anchor="Overview">
+  <div class="section slight-shade" id="feats-slide" data-anchor="Features">
     <section class="wrapper">
-      <span class="section-title">Overview</span>
+      <span class="section-title">Features</span>
         <h1>Done Right</h1>
         <div class="col-12">
           <div class="col-7">
-            <p>Up State is perfect for small businesses, professionals, and product landing pages. It makes launching high quality websites<strong class="highlight2"> fast, easy and stress-free</strong>. So you can focus on what you do best.</p>
+            <p>Up State is perfect for small businesses, professionals, and product landing pages. It makes launching high quality websites<strong class="highlight"> fast, easy and stress-free</strong>. So you can focus on what you do best.</p>
           </div>
           <div class="col-5 omega">
         </div>
@@ -144,16 +145,14 @@ per_page: 10
             <p>Whether you need new leads, to promote services, or sell a new product, I keep your goals in mind.</p>
           </div>
         </div>
-    </section>
-  </div>
-  <div class="section slight-white" id="feats-slide" data-anchor="Features">
-    <section class="wrapper">
+      </section>
+      <section class="wrapper">
       <div class="full">
-        <span class="section-title">Features</span>
-        <h1>All in one</h1>
+        <!-- <span class="section-title">Features</span> -->
+        <h1>Built in one week</h1>
       </div>
       <div class="main">
-        <p>Up State websites are built with WordPress, a popular content management software, so you can easily manage your website.</p>
+        <p>Since we've already consulted with you about your goals, your content, and your theme, all it takes is a week to build your website with your daily feedback as guidance.</p>
         <hr>
         <div class="upstate-features-list col-10">
           <li><i class="fa fa-magic"></i>
@@ -486,7 +485,7 @@ per_page: 10
     </div> -->
 
   </div>
-  <div class="section dawn-mist" data-anchor="Pricing">
+  <div class="section daylight-gradient" data-anchor="Pricing">
     <section class="wrapper">
       <span class="section-title">Pricing</span>
       <h1>Simple Pricing</h1>
@@ -494,7 +493,7 @@ per_page: 10
         <h3>Professional Set Up</h3>
         <p>1x build cost of $999<br>
         I launch your high-quality, modern WordPress website in a week.</p>
-        <div class="upstate-price-service">
+        <div class="upstate-price-service light">
           <i class="fa fa-cubes"></i><strong>Includes:</strong>
           <li>Connect URL & Hosting</li>
           <li>Theme Configuration</li>
@@ -529,14 +528,13 @@ per_page: 10
   <%= partial "partials/contact" %>
   <div class="section gradient2" data-anchor="Apply">
     <section class="wrapper">
-      <div class="main">
-        <span class="section-title">Application</span>
+      <div class="center-apply">
         <h1>Apply Now</h1>
         <p>It’s never too soon to start the application process. I’ll send you a short form to fill out. No commitment. No newsletters. No spam. Promise.</p>
         <form id="upstateApply" class="upstate-apply-form" action="//formspree.io/hi@upstatebiz.com" method="POST">
           <input type="hidden" name="_subject" value="New Up State Application" />
           <input type="text" name="_gotcha" style="display:none" />
-          <input type="email" name="_replyto" placeholder="Your email" required />
+          <input type="email" name="_replyto" placeholder="Your Email Address" required />
           <button class="upstate-submit" type="submit" value="Submit" />SUBMIT</button>
         </form>
         <br>
