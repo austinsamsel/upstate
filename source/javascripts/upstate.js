@@ -34,8 +34,9 @@
         };
 
         $('#fullpage').fullpage({
-          anchors: ['Home', 'Results', 'Overview', 'Features', 'Themes', 'Pricing', 'About', 'Apply', 'Contact'],
+          anchors: ['Home', 'Results', 'Overview', 'Features', 'Themes', 'Pricing', 'About', 'Contact', 'Apply'],
           responsive: 5000,
+          menu: '#js-navigation-menu',
           controlArrows: true,
           slidesNavigation: true,
           showActiveTooltips: true,

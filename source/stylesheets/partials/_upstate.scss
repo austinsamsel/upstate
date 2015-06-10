@@ -19,8 +19,20 @@
                    opacity: 1;
                    max-height:800px;
     }
+    .huge-screen.b-lazy.b-loaded {
+  opacity: 1;
+  max-height: 4000px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
+}
 
 /* nav */
+
+.nav-link.active > a {
+  font-weight: bold !important;
+}
+
 .upstate-nav-sm{
   transition: top 1.2s ease-in-out;
     -moz-transition: top 1.2s ease-in-out; /* FF 4 */
@@ -76,6 +88,9 @@ span.special-link {
   border-radius: 27px;
   padding: 4px 20px;
   color:#fff;
+}
+span.special-link:hover{
+  color:$brand-gray;
 }
 
 /* home slide */
