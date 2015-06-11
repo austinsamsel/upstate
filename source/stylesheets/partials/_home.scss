@@ -27,6 +27,11 @@ img {
   background: $bg-midnight;
   border-top:1px solid lighten($bg-midnight, 15%);
 }
+.dark-forest{
+  @include linear-gradient(130deg, darken($earth, 15%), lighten($bg-dark-forest, 0%) 40%, darken($earth, 23%));
+  border-top:1px solid lighten($bg-dark-forest, 35%);
+}
+
 .egg-blue{
   background: $bg-egg-blue;
   border-top:1px solid darken($bg-egg-blue, 15%);
@@ -66,7 +71,7 @@ img {
   border-top:1px solid #ddd;
 }
 .gradient2 {
-  @include linear-gradient(130deg, lighten($earth, 65%), lighten($crystal-blue, 58%) 40%, lighten($purple, 25%));
+  @include linear-gradient(130deg, lighten($green, 43%), lighten($crystal-blue, 58%) 40%, lighten($purple, 25%));
   border-top:1px solid #ddd;
 }
 .gradient3 {
