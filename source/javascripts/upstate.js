@@ -135,7 +135,7 @@
           },
           onLeave: function(index, nextIndex, direction){
             var leavingSection = $(this);
-            if(index == 5){
+            if(index == 4){
               slideDown();
             }
           },
@@ -144,13 +144,13 @@
 
               //first slide of the second section
 
-              if(index == 5 && slideIndex == 0){
+              if(index == 4 && slideIndex == 0){
                   slideDown();
                   $('.fp-controlArrow.fp-prev').css('display', 'none');
                   var bLazy = new Blazy();
                       bLazy.revalidate(); // eg bLazy.revalidate();
               }
-              if(index == 5 && slideIndex != 0){
+              if(index == 4 && slideIndex != 0){
                   slideUp();
                   $('.fp-controlArrow.fp-prev').css('display', 'block');
                   var bLazy = new Blazy();
