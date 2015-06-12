@@ -96,6 +96,9 @@
                       success: function(data) {
                         $contactForm.find('.alert--loading').hide();
                         $contactForm.append('<div class="alert alert--success"><i class="fa fa-check green"></i> Message sent!</div>');
+                        $contactForm.each(function(){
+                            this.reset();
+                        });
                       },
                       error: function(err) {
                         $contactForm.find('.alert--loading').hide();
@@ -120,6 +123,9 @@
                       success: function(data) {
                         $upstateApply.find('.alert--loading').hide();
                         $upstateApply.append("<div class='alert alert--success'><i class='fa fa-check green'></i> Success! We'll be in touch.</div>");
+                        $upstateApply.each(function(){
+                            this.reset();
+                        });
                       },
                       error: function(err) {
                         $upstateApply.find('.alert--loading').hide();
