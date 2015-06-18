@@ -144,6 +144,14 @@
             if(index == 4){
               slideDown();
             }
+            if (index == 1) {
+              var bLazy = new Blazy();
+              bLazy.revalidate();
+            }
+            if (index == 3) {
+              var bLazy = new Blazy();
+              bLazy.revalidate();
+            }
           },
           afterSlideLoad: function( anchorLink, index, slideAnchor, slideIndex){
               var loadedSlide = $(this);
