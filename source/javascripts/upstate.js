@@ -70,13 +70,9 @@
                 var bLazy = new Blazy({ 
                       offset: 300,
                       breakpoints: [{
-                          width: 768 // max-width
-                        , src: 'data-src-small'
-                     }
-                         , {
-                          width: 992 // max-width
-                        , src: 'data-src-medium'
-                }]
+                      width: 1000, // max-width
+                      src: 'data-src-small'
+                      }]
                 });
               })();
               // contact upstate
