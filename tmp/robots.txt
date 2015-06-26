@@ -1,7 +1,7 @@
 # www.robotstxt.org/
 # http://code.google.com/web/controlcrawlindex/
 
-#robots.txt for http://hightopsnyc.com/
+#robots.txt for http://www.upstatebiz.com/
 
 User-agent: *
 Disallow: /blog/
