@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html"/>
     <id>http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html</id>
     <published>2015-07-30T16:25:00-04:00</published>
-    <updated>2015-07-30T23:43:21-04:00</updated>
+    <updated>2015-07-30T23:57:30-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -32,7 +32,7 @@
 
 &lt;p&gt;My go-to plugin for backups is &lt;a href="https://wordpress.org/plugins/updraftplus/"&gt;Updraft Plus Backup and Restoration&lt;/a&gt;. You can connect your Dropbox or other cloud storage account to have your backups saved to a safe place. Not only can you take a full site backup which you can restore if something should go wrong… but you can easily set up a schedule to automatically run backups.&lt;/p&gt;
 
-&lt;p&gt;It's good to keep at least one archival backup of your full website some place safe. If you're constantly blogging, you should probably backup your database everyday. Depending on the site I'll keep several versions going back.&lt;/p&gt;
+&lt;p&gt;It's good to keep at least one archival backup of your full website some place safe. If you're constantly blogging, you should probably backup your database everyday. Depending on your website, you should have a set of various backups saved on both a cloud storage account and a local computer hard drive.&lt;/p&gt;
 
 &lt;h2 id="running-updates"&gt;Running updates&lt;/h2&gt;
 
@@ -58,6 +58,8 @@
 &lt;p&gt;Making updates shouldn't be stressful and it shouldn't take too long. However, it is something to turn into a routine habit. If you've been taking regular backups then you can live that stress-free life.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="../images/blog/2015-07-30-how-to-maintain-your-wordpress-site/beyonce.jpg" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have questions or if you've run into an issue, feel free to comment below!&lt;/p&gt;
 </content>
   </entry>
 </feed>
