@@ -30,7 +30,7 @@ It's important to keep your WordPress website up to date. WordPress makes it eas
 Making updates is usually as easy as selecting which plugins and themes you want to update and clicking "Update." However, I'm always careful about updating. Usually there's no problems, but sometimes, it can happen. Backing up your website before running updates is a good idea. I generally move through updates section by section, plugins, theme files, and finally core WordPress updates.
 
 ### Plugins
-Updating plugins is usually painless. It can be a good idea to turn off caching while making updates. This avoids caching maintainence pages or possibly causing other complications. When you're done you can turn your cache back on.
+Updating plugins is usually painless. It can be a good idea to turn off caching while making updates. This avoids caching maintenance pages or possibly causing other complications. When you're done you can turn your cache back on.
 
 ### Themes
 Be careful when updating your theme if you have a customized theme. Even when customizations are properly configured with a child theme, theme authors can introduce new elements which cause breaking changes. Also theme updates can come with new functionality and styles by default, so its a good idea to review the changelog and see what you'll be getting.
