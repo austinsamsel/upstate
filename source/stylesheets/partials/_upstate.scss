@@ -627,6 +627,27 @@ header.navigation, header.upstate-nav-wrapper {
   opacity:1.0;
 }
 
+.read-more-container{
+  max-width:750px;
+  margin:0 auto;
+  padding:1em 2px;
+}
+.read-more-link{
+max-width:750px;
+}
+.read-more-button{
+  @include bbb_size(2);
+  @include bbb-3D-style($green, #fff);
+  font-family: 'archivo black';
+  font-size:1.2em;
+  text-transform:uppercase;
+  letter-spacing:-0.09em;
+}
+.read-more-button:hover,
+.read-more-button:focus {
+  background-color:lighten($green, 10%);
+}
+
 div#mc_embed_signup {
   max-width: 640px;
   padding:0 20px;

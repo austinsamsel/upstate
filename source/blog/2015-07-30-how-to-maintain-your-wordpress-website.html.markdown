@@ -1,5 +1,5 @@
 ---
-title: How to maintain your WordPress site
+title: How to maintain your WordPress website
 date: 2015-07-30 20:25 UTC
 tags: backups, updates
 layout: layout_article
@@ -7,15 +7,15 @@ layout: layout_article
 
 <!-- # How to: Take care of your WP Website -->
 
-Boom! You have an awesome WordPress website. Now what?
+Boom! Now you have an awesome WordPress website. Now what?
 
 If you're new to WordPress or you've never maintained a WordPress site before, then this post is for you.
 
 Things change! Even if you don't make any changes to your website, the authors of WordPress and the authors of your plugins and maybe even the authors of your theme and making updates, fixing bugs, and patching security holes. It's important to update your website as good protocol.
 
-## Back ups
+## Backups
 
-Before all else, backup your website! If you've never backed up your website, take a full website backup right now. That means having a backup of your theme, plugins, database, uploads, and any other files.
+Before all else, backup your website! If you've never backed up your website, now is a good time to get started. A full site backup means having a backup of your theme, plugins, database, uploads, and any other files.
 
 My go-to plugin for backups is <a href="https://wordpress.org/plugins/updraftplus/">Updraft Plus Backup and Restoration</a>. You can connect your Dropbox or other cloud storage account to have your backups saved to a safe place. Not only can you take a full site backup which you can restore if something should go wrong… but you can easily set up a schedule to automatically run backups.
 
