@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html"/>
     <id>http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html</id>
     <published>2015-07-30T16:25:00-04:00</published>
-    <updated>2015-07-30T22:30:07-04:00</updated>
+    <updated>2015-07-30T23:43:21-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -43,7 +43,7 @@
 &lt;p&gt;Making updates is usually as easy as selecting which plugins and themes you want to update and clicking "Update." However, I'm always careful about updating. Usually there's no problems, but sometimes, it can happen. Backing up your website before running updates is a good idea. I generally move through updates section by section, plugins, theme files, and finally core WordPress updates.&lt;/p&gt;
 
 &lt;h3 id="plugins"&gt;Plugins&lt;/h3&gt;
-&lt;p&gt;Updating plugins is usually painless. It can be a good idea to turn off caching while making updates. This avoids caching maintainence pages or possibly causing other complications. When you're done you can turn your cache back on.&lt;/p&gt;
+&lt;p&gt;Updating plugins is usually painless. It can be a good idea to turn off caching while making updates. This avoids caching maintenance pages or possibly causing other complications. When you're done you can turn your cache back on.&lt;/p&gt;
 
 &lt;h3 id="themes"&gt;Themes&lt;/h3&gt;
 &lt;p&gt;Be careful when updating your theme if you have a customized theme. Even when customizations are properly configured with a child theme, theme authors can introduce new elements which cause breaking changes. Also theme updates can come with new functionality and styles by default, so its a good idea to review the changelog and see what you'll be getting.&lt;/p&gt;
