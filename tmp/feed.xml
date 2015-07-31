@@ -10,25 +10,25 @@
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>How to maintain your WordPress site</title>
-    <link rel="alternate" href="http://blog.url.com/blog/how-to-maintain-your-wordpress-site.html"/>
-    <id>http://blog.url.com/blog/how-to-maintain-your-wordpress-site.html</id>
+    <title>How to maintain your WordPress website</title>
+    <link rel="alternate" href="http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html"/>
+    <id>http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html</id>
     <published>2015-07-30T16:25:00-04:00</published>
-    <updated>2015-07-30T21:47:57-04:00</updated>
+    <updated>2015-07-30T22:30:07-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
     <content type="html">&lt;!-- # How to: Take care of your WP Website --&gt;
 
-&lt;p&gt;Boom! You have an awesome WordPress website. Now what?&lt;/p&gt;
+&lt;p&gt;Boom! Now you have an awesome WordPress website. Now what?&lt;/p&gt;
 
 &lt;p&gt;If you're new to WordPress or you've never maintained a WordPress site before, then this post is for you.&lt;/p&gt;
 
 &lt;p&gt;Things change! Even if you don't make any changes to your website, the authors of WordPress and the authors of your plugins and maybe even the authors of your theme and making updates, fixing bugs, and patching security holes. It's important to update your website as good protocol.&lt;/p&gt;
 
-&lt;h2 id="back-ups"&gt;Back ups&lt;/h2&gt;
+&lt;h2 id="backups"&gt;Backups&lt;/h2&gt;
 
-&lt;p&gt;Before all else, backup your website! If you've never backed up your website, take a full website backup right now. That means having a backup of your theme, plugins, database, uploads, and any other files.&lt;/p&gt;
+&lt;p&gt;Before all else, backup your website! If you've never backed up your website, now is a good time to get started. A full site backup means having a backup of your theme, plugins, database, uploads, and any other files.&lt;/p&gt;
 
 &lt;p&gt;My go-to plugin for backups is &lt;a href="https://wordpress.org/plugins/updraftplus/"&gt;Updraft Plus Backup and Restoration&lt;/a&gt;. You can connect your Dropbox or other cloud storage account to have your backups saved to a safe place. Not only can you take a full site backup which you can restore if something should go wrong… but you can easily set up a schedule to automatically run backups.&lt;/p&gt;
 
