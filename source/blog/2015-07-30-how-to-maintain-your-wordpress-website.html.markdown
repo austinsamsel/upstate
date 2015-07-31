@@ -19,7 +19,7 @@ Before all else, backup your website! If you've never backed up your website, no
 
 My go-to plugin for backups is <a href="https://wordpress.org/plugins/updraftplus/">Updraft Plus Backup and Restoration</a>. You can connect your Dropbox or other cloud storage account to have your backups saved to a safe place. Not only can you take a full site backup which you can restore if something should go wrong… but you can easily set up a schedule to automatically run backups.
 
-It's good to keep at least one archival backup of your full website some place safe. If you're constantly blogging, you should probably backup your database everyday. Depending on the site I'll keep several versions going back.
+It's good to keep at least one archival backup of your full website some place safe. If you're constantly blogging, you should probably backup your database everyday. Depending on your website, you should have a set of various backups saved on both a cloud storage account and a local computer hard drive.
 
 ## Running updates
 
@@ -45,3 +45,5 @@ There's nothing like human-eyes-on-your-site. Take a look at your homepage. If y
 Making updates shouldn't be stressful and it shouldn't take too long. However, it is something to turn into a routine habit. If you've been taking regular backups then you can live that stress-free life.
 
 <img src="../images/blog/2015-07-30-how-to-maintain-your-wordpress-site/beyonce.jpg" alt="">
+
+If you have questions or if you've run into an issue, feel free to comment below!
