@@ -1,4 +1,4 @@
-### deployment
+### deploy
 
 1. at project root.
 
@@ -20,4 +20,10 @@
 
   `git push origin gh-pages`
 
-  `git push -u origin gh-pages #(if first push ever.)``
+  `git push -u origin gh-pages #(if first push ever.)`
+
+or
+
+add to profile:
+
+`alias mmdeploy="middleman build && cd tmp/ && git add -A && git commit -m build && git push origin gh-pages && cd .."`
