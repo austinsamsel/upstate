@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2015-07-30T16:25:00-04:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>How to maintain your WordPress website</title>
+    <link rel="alternate" href="http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html"/>
+    <id>http://blog.url.com/blog/how-to-maintain-your-wordpress-website.html</id>
+    <published>2015-07-30T16:25:00-04:00</published>
+    <updated>2016-06-17T10:05:52-04:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;!-- # How to: Take care of your WP Website --&gt;
+
+&lt;p&gt;Boom! Now you have an awesome WordPress website. Now what?&lt;/p&gt;
+
+&lt;p&gt;If you're new to WordPress or you've never maintained a WordPress site before, then this post is for you.&lt;/p&gt;
+
+&lt;p&gt;Things change! Even if you don't make any changes to your website, the authors of WordPress and the authors of your plugins and maybe even the authors of your theme and making updates, fixing bugs, and patching security holes. It's important to update your website as good protocol.&lt;/p&gt;
+
+&lt;h2 id="backups"&gt;Backups&lt;/h2&gt;
+
+&lt;p&gt;Before all else, backup your website! If you've never backed up your website, now is a good time to get started. A full site backup means having a backup of your theme, plugins, database, uploads, and any other files.&lt;/p&gt;
+
+&lt;p&gt;My go-to plugin for backups is &lt;a href="https://wordpress.org/plugins/updraftplus/"&gt;Updraft Plus Backup and Restoration&lt;/a&gt;. You can connect your Dropbox or other cloud storage account to have your backups saved to a safe place. Not only can you take a full site backup which you can restore if something should go wrong… but you can easily set up a schedule to automatically run backups.&lt;/p&gt;
+
+&lt;p&gt;It's good to keep at least one archival backup of your full website some place safe. If you're constantly blogging, you should probably backup your database everyday. Depending on your website, you should have a set of various backups saved on both a cloud storage account and a local computer hard drive.&lt;/p&gt;
+
+&lt;h2 id="running-updates"&gt;Running updates&lt;/h2&gt;
+
+&lt;p&gt;It's important to keep your WordPress website up to date. WordPress makes it easy by providing a notification when updates are available. You'll find the number of updates available underneath "Home" in the main menu of the dashboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../images/blog/2015-07-30-how-to-maintain-your-wordpress-site/wp-updates-notification.png" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Making updates is usually as easy as selecting which plugins and themes you want to update and clicking "Update." However, I'm always careful about updating. Usually there's no problems, but sometimes, it can happen. Backing up your website before running updates is a good idea. I generally move through updates section by section, plugins, theme files, and finally core WordPress updates.&lt;/p&gt;
+
+&lt;h3 id="plugins"&gt;Plugins&lt;/h3&gt;
+&lt;p&gt;Updating plugins is usually painless. It can be a good idea to turn off caching while making updates. This avoids caching maintenance pages or possibly causing other complications. When you're done you can turn your cache back on.&lt;/p&gt;
+
+&lt;h3 id="themes"&gt;Themes&lt;/h3&gt;
+&lt;p&gt;Be careful when updating your theme if you have a customized theme. Even when customizations are properly configured with a child theme, theme authors can introduce new elements which cause breaking changes. Also theme updates can come with new functionality and styles by default, so its a good idea to review the changelog and see what you'll be getting.&lt;/p&gt;
+
+&lt;h3 id="core-wordpress-updates"&gt;Core WordPress Updates&lt;/h3&gt;
+&lt;p&gt;Before updating the core WordPress files, WordPress recommends that you backup your website. You'll also want to make sure your cache is off.&lt;/p&gt;
+
+&lt;h3 id="check-your-site"&gt;Check your site&lt;/h3&gt;
+&lt;p&gt;There's nothing like human-eyes-on-your-site. Take a look at your homepage. If you've updated a plugin connected with another page, check it out, make sure everything works.&lt;/p&gt;
+
+&lt;h2 id="wrapping-up"&gt;Wrapping Up&lt;/h2&gt;
+&lt;p&gt;Making updates shouldn't be stressful and it shouldn't take too long. However, it is something to turn into a routine habit. If you've been taking regular backups then you can live that stress-free life.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../images/blog/2015-07-30-how-to-maintain-your-wordpress-site/beyonce.jpg" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have questions or if you've run into an issue, feel free to comment below!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
