@@ -2,22 +2,22 @@
 
 1. at project root.
 
-  middleman build
+    middleman build
 
 2. go to build directory
 
-  cd tmp/
+    cd tmp/
 
 3. add
 
-  git add -A  
+    git add -A  
 
 4. commit
 
-  git commit -m build
+    git commit -m build
 
 5. push to github.
 
-  git push origin gh-pages
+    git push origin gh-pages
 
-  git push -u origin gh-pages (if first push ever.)
+    git push -u origin gh-pages (if first push ever.)
